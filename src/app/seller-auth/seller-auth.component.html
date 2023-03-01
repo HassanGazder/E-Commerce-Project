@@ -1,0 +1,18 @@
+<div class="container">
+<h1 class="text-center">Seller Login</h1>
+<form #sellersignUp="ngForm" (ngSubmit)="signUp(sellersignUp.value)" class="mt-5">
+    <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Name</label>
+        <input name="name" type="text" class="form-control w-50" placeholder="Enter Your Name">
+      </div>
+    <div class="mb-3">
+      <label for="exampleInputEmail1" class="form-label">Email address</label>
+      <input name="email" type="email" class="form-control w-50" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Your Email">
+    </div>
+    <div class="mb-3">
+      <label for="exampleInputPassword1" class="form-label">Password</label>
+      <input name="Password" type="password" class="form-control w-50" id="exampleInputPassword1" placeholder="Enter Your Password">
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+</div>
